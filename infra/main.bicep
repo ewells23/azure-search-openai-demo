@@ -11,17 +11,17 @@ param location string
 
 param appServicePlanName string = ''
 param backendServiceName string = ''
-param resourceGroupName string = ''
+param resourceGroupName string = 'US2-RG-OPENAI-D-1'
 
 param searchServiceName string = ''
-param searchServiceResourceGroupName string = ''
+param searchServiceResourceGroupName string = 'US2-RG-OPENAI-D-1'
 param searchServiceResourceGroupLocation string = location
 
 param searchServiceSkuName string = 'standard'
 param searchIndexName string = 'gptkbindex'
 
 param storageAccountName string = ''
-param storageResourceGroupName string = ''
+param storageResourceGroupName string = 'US2-RG-OPENAI-D-1'
 param storageResourceGroupLocation string = location
 param storageContainerName string = 'content'
 
@@ -32,7 +32,7 @@ param openAiResourceGroupLocation string = location
 param openAiSkuName string = 'S0'
 
 param formRecognizerServiceName string = ''
-param formRecognizerResourceGroupName string = ''
+param formRecognizerResourceGroupName string = 'US2-RG-OPENAI-D-1'
 param formRecognizerResourceGroupLocation string = location
 
 param formRecognizerSkuName string = 'S0'
