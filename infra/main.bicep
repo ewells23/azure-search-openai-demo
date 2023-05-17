@@ -25,8 +25,8 @@ param storageResourceGroupName string = ''
 param storageResourceGroupLocation string = location
 param storageContainerName string = 'content'
 
-param openAiServiceName string = ''
-param openAiResourceGroupName string = ''
+param openAiServiceName string = 'US2OPENAIRESOURCE'
+param openAiResourceGroupName string = 'US2-RG-OPENAI-D-1'
 param openAiResourceGroupLocation string = location
 
 param openAiSkuName string = 'S0'
@@ -37,9 +37,9 @@ param formRecognizerResourceGroupLocation string = location
 
 param formRecognizerSkuName string = 'S0'
 
-param gptDeploymentName string = 'davinci'
+param gptDeploymentName string = 'text-davinci-003'
 param gptModelName string = 'text-davinci-003'
-param chatGptDeploymentName string = 'chat'
+param chatGptDeploymentName string = 'gpt-35-turbo-deployment'
 param chatGptModelName string = 'gpt-35-turbo'
 
 @description('Id of the user or app to assign application roles')
